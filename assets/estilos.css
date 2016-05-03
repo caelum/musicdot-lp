@@ -1,0 +1,41 @@
+.home-video-promocional {
+	text-align: center;
+}
+
+.cta {
+	font-size: 2em;
+	margin: 0 auto;
+	text-shadow: none;
+	position: relative;
+}
+.cta:hover {
+	top: 2px;
+}
+.cta-topo, .cta-topo:hover {
+	background-color: #ea394d;
+}
+
+.plano-destaque {
+	border: 1px solid #5cc96e;
+	border-radius: 10px;
+	position: relative;
+}
+
+.plano-destaque:before {
+	content: '33% OFF';
+	display: block;
+	background-color: #5cc96e;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	font-size: 0.55em;
+	text-align: center;
+	padding: 5px 8px;
+
+
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 10px;
+
+}
