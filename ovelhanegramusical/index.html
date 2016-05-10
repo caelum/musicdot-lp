@@ -59,7 +59,7 @@ Criando seu cadastro...
   if (email) {
 	setTimeout(redireciona, 2000);
 
-	ga('send', 'event', 'Ovelha Negra', 'Trial', email, {
+	ga('send', 'event', 'Ovelha Negra', 'Trial', email.replace('@', ' ').replace('.', '_'), {
 	hitCallback: redireciona
 	});
   } else {
